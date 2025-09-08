@@ -1,0 +1,18 @@
+/* Minimal polish on top of Bootstrap */
+:root {
+  --brand-green: #198754; /* Bootstrap 'success' */
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar-success {
+  background: linear-gradient(135deg, #2e7d32, #43a047) !important;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+img.rounded-4 { border-radius: 1rem !important; }

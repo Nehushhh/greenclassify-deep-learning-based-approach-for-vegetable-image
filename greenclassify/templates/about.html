@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        /* Reset & Base Styling */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8f0;
+            color: #4e4e4e;
+            line-height: 1.6;
+        }
+
+        /* Navbar - Same as Home */
+        .navbar {
+            background-color: #6f9d5e;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navbar a:hover { text-decoration: underline; }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .container h1 {
+            color: #4b8c3b;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #555;
+        }
+
+        /* Footer - Same as Home */
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #4b8c3b;
+            background-color: #e8f4e8;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/predict">Prediction</a>
+    <a href="/about">About Us</a>
+    <a href="/contact">Contact Us</a>
+</div>
+
+<div class="container">
+    <h1>About Project</h1>
+    <p>
+        Welcome to the Vegetable Image Classifier!<br><br>
+        This innovative project utilizes a Convolutional Neural Network (CNN) to accurately identify and classify various vegetables from images. 
+        Our model has been trained on a robust dataset encompassing a wide variety of vegetable categories, ensuring high accuracy and real-time predictions.
+        <br><br>
+        Built using <strong>Flask</strong> and <strong>TensorFlow/Keras</strong>, this web application empowers users with a simple interface 
+        to upload images and get instant classification results. Our goal is to blend technology with agriculture for smarter and efficient solutions.
+    </p>
+</div>
+
+<div class="footer">
+    © 2025 Vegetable Classifier Project | Powered by AI and Freshness!
+</div>
+
+</body>
+</html>
